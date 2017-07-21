@@ -5,7 +5,7 @@ function Card({ book }) {
     return (
         <div className="mdc-card">
             <div className="mdc-card__horizontal-block">
-                <img src={`/img/books/${book.cover}`} className="mdc-card__media-item mdc-card__media-item--2x" alt={book.title} />
+                <img src={`img/books/${book.cover}`} className="mdc-card__media-item mdc-card__media-item--2x" alt={book.title} />
 
                 <section className="mdc-card__primary">
                     <h2 className="mdc-card__title mdc-card__title--large">{book.title}</h2>
